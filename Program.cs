@@ -19,32 +19,39 @@
     
 
 
+
+
 //Напишите программу, которая принимает на вход 
 //число и проверяет кратно ли оно одновременно "a" и "b".
 
-void IsMultiple(int num, int a, int b)
-{
-    if (num % a == 0 && num % b == 0)
-    {
-        System.Console.WriteLine($"Your number {num} is multiple of {a} and {b}");
-    }
-    else
-    {
-        System.Console.WriteLine($"Your numbers {num}, {a} and {b} don't match the task condition. Try again. For restart input <dotnet run>");
-    }
-}
 
-Console.Write("Input your number to find the result: ");
-int num = Convert.ToInt32(Console.ReadLine());
+// void IsMultiple(int num, int a, int b)
+// {
+//     if (num % a == 0 && num % b == 0)
+//     {
+//         System.Console.WriteLine($"Your number {num} is multiple of {a} and {b}");
+//     }
+//     else
+//     {
+//         System.Console.WriteLine($"Your numbers {num}, {a} and {b} don't match the task condition. Try again. For restart input <dotnet run>");
+//     }
+// }
+
+// Console.Write("Input your number to find the result: ");
+// int num = Convert.ToInt32(Console.ReadLine());
 
 
-Console.Write("Input your a-number: ");
-int a = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input your a-number: ");
+// int a = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Input your b-number: ");
-int b = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input your b-number: ");
+// int b = Convert.ToInt32(Console.ReadLine());
 
-IsMultiple(num, a, b);
+// IsMultiple(num, a, b);
+
+
+
+
 
 
 // Task4. Напишите программу, которая принимает на вход два 
